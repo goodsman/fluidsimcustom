@@ -18,6 +18,7 @@ from fluidsim.base.solvers.base import SimulBase
 from fluidsim.base.solvers.info_base import InfoSolverBase
 
 # from dedalus import public as dedalus
+from fluidsim.base.dedalus import public as dedalus
 
 
 class InfoSolverDedalus(InfoSolverBase):
@@ -51,7 +52,7 @@ class InfoSolverDedalus(InfoSolverBase):
 class SimulDedalus(SimulBase):
     """A solver for Dedalus."""
 
-    # dedalus = dedalus
+    dedalus = dedalus
 
     InfoSolver = InfoSolverDedalus
 
