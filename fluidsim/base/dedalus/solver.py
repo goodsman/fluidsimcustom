@@ -51,7 +51,7 @@ class InfoSolverDedalus(InfoSolverBase):
 class SimulDedalus(SimulBase):
     """A solver for Dedalus."""
 
-    dedalus = dedalus
+    # dedalus = dedalus
 
     InfoSolver = InfoSolverDedalus
 
