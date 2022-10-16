@@ -17,7 +17,7 @@ Provides:
 from fluidsim.base.solvers.base import SimulBase
 from fluidsim.base.solvers.info_base import InfoSolverBase
 
-from dedalus import public as dedalus
+# from dedalus import public as dedalus
 
 
 class InfoSolverDedalus(InfoSolverBase):
